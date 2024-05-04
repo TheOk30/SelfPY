@@ -13,3 +13,6 @@ MAX_TRIES = 6
 
 print(HANGMAN_ASCII_ART)
 print(MAX_TRIES)
+
+letter = input("Please enter a letter: ")
+print(letter)
