@@ -1,6 +1,7 @@
-import random
+def main():
+    from random import randint
 
-tries = random.randint(5, 10)
+tries = randint(5, 10)
 print("Welcome to the game Hangman")
 print(""" 
     _    _
@@ -74,3 +75,7 @@ print("""
     |      /|\\
     |      / \\
     |""")
+
+
+if __name__ == "__main__":
+    main()
