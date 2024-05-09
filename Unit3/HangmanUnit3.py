@@ -15,8 +15,12 @@ def main():
     print(HANGMAN_ASCII_ART)
     print(MAX_TRIES)
 
+    word = input("Please enter a word: ")
+    hidden_word = "_ " * len(word)    
+    print(word)
+    print(hidden_word)
     letter = input("Please enter a letter: ")
-    print(letter)
+    print(letter.lower())
 
 if __name__ == "__main__":
     main()
